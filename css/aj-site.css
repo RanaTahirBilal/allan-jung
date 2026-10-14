@@ -164,6 +164,11 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--aj-acc-lift);outlin
 /* Allan Jung additions */
 .aj-card i{color:var(--aj-acc-ink)}
 .aj-gallery img{width:100%;aspect-ratio:4/3;object-fit:cover}
+/* Allan asked for the ring standing proud of the tire lip to be seen. It is a fine
+   detail in a dark frame, so it leads the row at size and carries a caption. */
+.aj-feature figure{margin-bottom:32px;overflow:visible;border-radius:0}
+.aj-feature img{aspect-ratio:3/2;object-position:center 46%;border-radius:12px}
+.aj-feature figcaption{padding:12px 4px 0;color:var(--aj-muted);font-size:15px;text-align:center}
 .aj-patents{list-style:none;padding:0;margin:0}
 .aj-patents li{border-left:4px solid var(--aj-acc);background:#fff;padding:14px 18px;margin-bottom:12px;border-radius:6px}
 .aj-patents strong{display:block;color:var(--aj-ink);font-family:'Montserrat',Arial,sans-serif}
